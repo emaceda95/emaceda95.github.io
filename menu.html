@@ -1,0 +1,122 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sistema de administración ALME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="administración, alme, erp" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link rel="shortcut icon" href="images/icon-sup.jpg" />
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' media="all" />
+<link href="css/dashboard.css" rel="stylesheet">
+<link href="css/stylemenu.css" rel='stylesheet' type='text/css' media="all" />
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/font-awesome.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script><!-- Font-Awesome-Icons-CSS -->
+<!-- //fonts -->
+</head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="menu.html"><h1><img src="images/icon-menu.png" alt="" /></h1></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+			<div class="header-top-right">
+
+				<div class="clearfix"> </div>
+			</div>
+        </div>
+		<div class="clearfix"> </div>
+      </div>
+    </nav>
+	
+        <div class="col-sm-4 col-md-2 sidebar" >
+			<div class="top-navigation">
+				<div class="t-menu">MENU</div>
+				<div class="t-img">
+					<img src="images/lines.png" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<div class="drop-navigation drop-navigation">
+				  <ul class="nav nav-sidebar">
+					<li class="active"><a href="#"><span class="fas fa-male iconosmenu" aria-hidden="true"></span>Clientes</a></li>
+					<li><a href="#" class="menu"><span class="fas fa-hand-holding-usd iconosmenu" aria-hidden="true"></span>Ventas<span class="fas fa-angle-double-down iconosmenuright" aria-hidden="true"></span></a></li>
+                    <ul class="cl-effect-1">
+							<li><a href="#"><span class="fas fa-file-invoice-dollar iconosmenu" aria-hidden="true"></span>Cotizaciones</a></li>              
+							<li><a href="#"><span class="fas fa-flag-checkered iconosmenu" aria-hidden="true"></span>Ordenes de trabajo</a></li>
+							<li><a href="#"><span class="fas fa-people-carry iconosmenu" aria-hidden="true"></span>CRM</a></li> 
+						
+				    </ul>
+                      <script>
+							$( "li a.menu" ).click(function() {
+							$( "ul.cl-effect-1" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+							});
+						</script>
+                    <li><a href="#" class="home-icon"><span class="fab fa-whmcs iconosmenu" aria-hidden="true"></span>Ingeniería</a></li>
+                     
+					<li><a href="#"><span class="fas fa-wrench iconosmenu" aria-hidden="true"></span>Producción</a></li>
+					
+						
+					<li><a href="#"><span class="fas fa-clipboard-check iconosmenu" aria-hidden="true"></span>Calidad</a></li>		
+						
+					<li><a href="#"><span class="fas fa-oil-can iconosmenu" aria-hidden="true"></span>Mantenimiento</a></li>
+                      
+					<li><a href="#"><span class="fas fa-box-open iconosmenu" aria-hidden="true"></span>Almacén</a></li>
+                      
+                    <li><a href="#"><span class="fas fa-shopping-cart iconosmenu" aria-hidden="true"></span>Compras</a></li>
+                      
+                    <li><a href="#"><span class="fas fa-bicycle iconosmenu" aria-hidden="true"></span>Productos</a></li>
+                      
+                    <li><a href="#"><span class="fas fa-chart-line iconosmenu" aria-hidden="true"></span>Indicadores</a></li>
+                      
+                                                  
+				  </ul>
+
+						<script>
+							$( ".top-navigation" ).click(function() {
+							$( ".drop-navigation" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+							});
+						</script>
+
+				</div>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	
+
+		<div class="footer">
+		<p>Sistema de administración ALME S.A de C.V.
+		</p>
+	</div>
+		</div>
+		<div class="clearfix"> </div>
+	<div class="drop-menu">
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
+		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Regular link</a></li>
+		  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
+		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another link</a></li>
+		</ul>
+	</div>
+
+    <script src="js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
